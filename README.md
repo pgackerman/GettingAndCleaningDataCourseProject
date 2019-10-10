@@ -1,4 +1,4 @@
-##  GettingAndCleaningDataCourseProject
+##  Getting And Cleaning Data -- Course Project
 
 ### Introduction
 
@@ -13,3 +13,9 @@ tidy data set contains the activity name rather than the activity code.
 Finally, each activity for each subjected will be averaged and stored in an
 average data set. I named this summary data set average rather than mean because
 the term "mean" has been used many times throughout this experiment.
+
+### Files
+
+codebook.md - The code book for this project
+
+run_analysis.R - The script to build the tidy and summarized data sets.

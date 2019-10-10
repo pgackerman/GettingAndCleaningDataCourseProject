@@ -31,7 +31,11 @@ The files are merged into one tidy data set containing:
 
 [, 2]: activity name
 
-[, 3:87]: data points relating to the mean or standard deviation
+[, 3:87]: data points relating to the mean or standard deviation.  I renamed
+some of the fields by transforming multiple contiguous periods into one period
+and removing periods at the end of field names.
 
 The data set is then summarized by the mean (average) of each subject and
-activity.
+activity.  Each field name is this summary data set begins with the word
+"average.". I used average instead of mean because mean was used already in many
+of the data field names.
