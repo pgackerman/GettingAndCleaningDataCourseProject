@@ -25,7 +25,7 @@ subject_test.txt - The subject test data.
 
 subject_train.txt - The subject training data.
 
-The files are merged into one tidy data set containing:
+The files are merged into one tidy data set containing
 [, 1]: subject id
 [, 2]: activity name
 [, 3:87]: data points relating to the mean or standard deviation
